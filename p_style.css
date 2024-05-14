@@ -1,0 +1,309 @@
+.topnav a {
+    text-align: right;
+    float: right;
+    color: #f2f2f2;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  .top span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  .topnav{
+    background-color: black;
+  }
+  #about{
+    margin-top: 15px;
+    background-image: url('https://brainwavesindia.com/wp-content/uploads/2021/01/brainwaves-website-pages-_06-01-2021-_-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  #skills{
+    background-image: url('https://brainwavesindia.com/wp-content/uploads/2021/01/brainwaves-website-pages-_06-01-2021-_-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .feature{
+    border-collapse: collapse;
+  padding: 130px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container{
+    border-radius:3px;
+    /*width:500px;*/
+    width: 73%;
+    margin:10px auto;
+    text-align:center;
+    
+    padding: 5px;
+    padding-bottom:20px;
+    overflow:hidden;
+  }
+  .info{
+    width:100%;
+     background: #5D5F60;
+    color: #F8F8F8;
+  }
+  .info thead tr td{
+    font-weight:400;
+    text-align:center;
+  }
+  .info thead{
+    background:#2D2E30;
+  }
+  .info tr{
+    text-align:left;
+    overflow:hidden;
+  }
+  .info td{
+    padding:5px 10px;
+    border-bottom:solid 2px #f0f0f0;
+    width: 100px;
+  }
+   tbody td:nth-child(2) .percent{
+    text-align:center;
+    margin-left: 15%;
+  }
+  .bar{
+    width:200px;
+    height:20px;
+    border:solid 5px #3F4244;
+    border-radius:3px;
+    margin: 15px 1px;
+    overflow:hidden;
+    background: #f0f0f0;
+  }
+  .fill{
+    max-width:100%;
+    height:100%;
+  }
+  .one .fill{
+    width:0%;
+    background:#3F4244;
+    border-radius:1px;
+  
+  }
+  .two .fill{
+    width:0%;
+    background:#3F4244;
+    border-radius:1px;
+  }
+  
+  .percent, .one{
+    position:relative;
+    float:left;
+  }
+  .percent{
+    top:19px;
+    margin-left:5px;
+    margin-right:10px;
+  }
+  .border{
+    border:solid 5px #3F4244;
+    border-radius:3px;
+  }
+  .last{
+    border:none;
+  }
+  #course{
+    background-image: url('https://brainwavesindia.com/wp-content/uploads/2021/01/brainwaves-website-pages-_06-01-2021-_-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:1500px;
+    height: 500px;
+  }
+  .wrapper{
+    width: 400px;
+    height: 400px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+    overflow:hidden;
+    border-radius:15px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    /*--- selekton hover image ----*/
+    background-color: #ededed;
+    background: linear-gradient(
+      100deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, .5) 50%,
+      rgba(255, 255, 255, 0) 60%
+    ) #ededed;
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+  }
+  @keyframes loading {
+    to {
+      background-position-x: -20%;
+    }
+  }
+  .effect {
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+    font-size: clamp(2rem, 2.8vw, 5rem);
+    font-family: Raleway;
+    font-weight: bold;
+    color: white;
+    padding-left: 50px;
+    padding-top: 150px;
+  }
+  
+  .typewriter {
+    
+      width: 21.5ch;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: text 5s steps(18) alternate infinite;
+  }
+  
+ 
+  @keyframes text {
+      0% { 
+      width: 0; 
+    }
+      100% { 
+      width: 21.5ch; 
+    }
+  }
+  #contact{
+    background-color: whitesmoke;
+    margin-top: 15px;
+
+}
+
+ 
+  
+
+  
+  .form {
+      background-color: white;
+      border-radius: 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+              0 10px 10px rgba(0,0,0,0.22);
+      position: relative;
+      overflow: hidden;
+      width: 768px;
+      max-width: 100%;
+      min-height: 480px;
+    min-width:370px;
+  }
+  
+  h2 {
+    font-size:2rem;
+    margin-bottom:1rem;
+  }
+  .form-container {
+    display:flex;
+  }
+  
+  .left-container {
+    flex:1;
+    height:480px;
+    background-color:grey;
+  }
+  .right-container {
+    display:flex;
+    flex:1;
+    height:460px;
+    background-color: white;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .left-container {
+    display:flex;
+    flex:1;
+    height:480px;
+    justify-content:center;
+    align-items:center;
+      color:white;
+  }
+  
+  .left-container p {
+    font-size:0.9rem;
+  }
+  
+  .right-inner-container {
+    width:70%;
+    height:80%;
+    text-align:center;
+  }
+  
+  .left-inner-container {
+    height:50%;
+    width:80%;
+    text-align:center;
+    line-height:22px;
+  }
+  
+  input, textarea {
+      background-color: #eee;
+      border: none;
+      padding: 12px 15px;
+      margin: 8px 0;
+      width: 100%;
+    font-size:0.8rem;
+  }
+  
+  input:focus, textarea:focus{
+    outline:1px solid grey;
+  }
+  
+  button {
+      border-radius: 20px;
+      border: 1px solid grey;
+      background-color: grey;
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 12px 45px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: transform 80ms ease-in;
+    cursor:pointer;
+  }
+  
+  button:hover {
+    opacity:0.7;
+  }
+  @media only screen and (max-width: 600px) {
+    .left-container{
+      display: none;
+    }
+    .lg-view {
+      display:none;  
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .sm-view {
+      display:none;  
+    }
+  }
+  
+  form p {
+    text-align:left;
+  }
